@@ -1,0 +1,310 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.Ashion{
+    font-size: 35px;
+    font-family: "The Nautigal", cursive;
+    font-weight: 500;
+    font-style: normal;
+}
+.menu ul li a{
+text-decoration: none;
+color: black;
+}
+.menu ul {
+list-style-type: none;    
+}
+.menu{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0px 16px;
+font-size: 20px;
+color: black;
+height: 60px;
+}
+.menu-list{
+display: flex;
+}
+.menu-list li{
+margin-right: 50px;
+padding: 0px 10px;
+color: black;
+}
+.menu-list li:hover{
+border-bottom: 3px solid red;
+
+}
+
+
+
+/* /////////////////////////////// */
+.laddy{
+display: flex;
+}
+.lad{
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 1.2em;
+    border-radius: 10px;
+    box-shadow: 0 6 5px #444;
+    transition: all 0.3s ease;
+}
+.lad:hover{
+    box-shadow: 0 0 30px grey;
+    padding: 18px 30px;
+    font-size: 1.4em;
+}
+
+.Women{
+display: flex;
+align-items: center;
+height: 515px;
+padding: 0px 20px;
+background-color: rgb(246, 241, 195);
+}
+.Womenimg img{
+position: static;
+width: 265px;
+height: 500px;
+margin-top: 20px;
+}
+.Women-heade{
+    font-size: 60px;
+    font-weight: 500;
+    font-style: normal;
+font-family: "Montez", cursive;
+}
+.Women-para{
+width: 402px;
+}
+.Women-button{
+border-bottom: 3px solid red;
+}
+
+
+
+/* ////////////////////////////// */
+.Wom{
+margin-left: 10px;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-gap: 8px;
+}
+
+.men{
+display: flex;
+align-items: center;
+padding-left: 10px;
+}
+.menimg img{
+width: 240px;
+height: 246px;
+}
+.menheader{
+font-size: 20px;
+padding-bottom: 10px;
+}
+.men-button{
+border-bottom: 3px solid red;
+width: 70px;
+
+}
+.menpara{
+padding-top: 10px;
+}
+.mencolor{
+background-color: rgb(196, 251, 221);
+}
+.kid{
+background-color: rgb(223, 212, 233);
+}
+.kidimg img {
+margin-left: 6px;
+}
+.Cosmetics{
+background-color: rgb(255, 225, 240);
+}
+.Cosmeticsimg{
+margin-left: 26px;
+margin-bottom: -10px;
+}
+.Accessories{
+background-color: rgb(201, 233, 248);
+}
+.Accessoriesimg{
+margin-left: 21px;
+margin-bottom: -7px;
+}
+
+
+/* //////////////////////////// */
+   .newproduct ul li a{
+    text-decoration: none;
+    color: black;
+    }
+    .newproduct ul {
+    list-style-type: none;    
+    }
+    .newproduct{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 195px;
+    font-size: 20px;
+    color: black;
+    height: 60px;
+    }
+    .newproduct-list{
+    display: flex;
+    }
+    .newproduct-list li{
+    margin-right: 27px;
+    padding: 0px 10px;
+    color: black;
+    }
+    .newproduct-list li:hover{
+    border-bottom: 3px solid red;
+    
+    }
+    
+    .womnewproduct {
+        border-bottom: 3px solid red;
+    }
+    
+    
+/* ////////////////// */
+    .space{
+        height: 146ex;
+    }
+    .manladdyproduct{
+        padding: 15px 227px;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 20px;
+        /* height: 200ex; */
+    }
+    
+    .lad{
+        text-align: center;
+        position: relative;
+    }
+    .ladimg{
+        background-color: rgb(234, 231, 231);
+        width: 246px;
+    }
+    .ladimg img{
+        height: 350px;
+    }
+    .ladpara{
+        font-size: 15px;
+        margin-top: -1px;
+    }
+    
+    .lad-stare{
+        font-size: 10px;
+        color: goldenrod;
+    }
+    .ladp{
+        font-size: 27px;
+        
+    }
+    .ladnew{
+    position: absolute;
+    top: 6px;
+    left: 5px;
+    padding: 3px 6px;
+    
+    }
+    .ladnewcolor{
+      background-color: rgb(17, 175, 17);
+      color: aliceblue;
+    }
+    .ladstock{
+      background-color: rgb(2, 2, 2);
+      color: aliceblue;
+    }
+    .ladsale{
+      background-color: rgb(226, 0, 0);
+      color: aliceblue;
+    }
+
+
+/* //////////////////////// */
+     .chole{
+        height: 354px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(220, 213, 212);
+        position: relative;
+     }
+     .cholemain{
+        text-align: center;
+        margin: 0px 20px;
+    }
+    .cholepara{
+        color: red;
+    }
+
+     .choleheade{
+        font-size: 56px;
+        font-family: "Great Vibes", cursive;
+        font-weight: 400;
+        font-style: normal;
+     }
+     .choleimg img{
+        width: 425px;
+        position: absolute;
+        top: 0px;
+        left: 10px;
+        bottom: 0px;
+     }
+     .cholladdyimg img{
+        width: 508px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+     }
+
+ /* //////////////////////// */
+   .bestseller{
+    display: flex;
+    padding-top: 25px;
+
+   } 
+   .treand{
+    border-bottom: 3px solid red;
+   }
+   .bestseller p{
+    font-size: 19px;
+   }
+   .hot{
+    margin-left: 288px;
+   }
+   .best{
+    margin-left: 198px;
+   }
+   .feat{
+    margin-left: 181px;
+   }
+
+
+/* /////////////////////// */
+     .items{
+        display: flex;
+        align-self: center;
+    }
+    .itemspara{
+        margin-left: 27px;
+    }
+    .itesmsgrid{
+        padding: 10px 290px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 20px;
+    }
